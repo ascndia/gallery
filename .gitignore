@@ -1,0 +1,95 @@
+# PHP
+*.log
+*.tmp
+*.temp
+
+# Composer
+/vendor/
+composer.phar
+
+# Database files
+/data/*.db
+/data/*.sqlite
+/data/*.sqlite3
+
+# Cache directory - contains cached images
+/cache/
+/cache/*
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.phpstorm.meta.php
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Windows
+*.lnk
+
+# Log files
+*.log
+error.log
+access.log
+php_errors.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Node modules (if using any frontend build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Config files with sensitive data
+config.local.php
+config.production.php
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# WebSocket server log
+ws.log
+
+# Personal notes and documentation
+notes.txt
+TODO.txt
+NOTES.md

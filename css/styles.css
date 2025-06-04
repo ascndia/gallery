@@ -1,0 +1,33 @@
+/* Custom styles for the gallery */
+.masonry-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.masonry-content {
+  position: relative;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .masonry-item {
+    width: 100%;
+  }
+}
